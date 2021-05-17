@@ -1,0 +1,203 @@
+{
+  "activityId": "816",
+  "comments": [],
+  "description": "Days, weeks and months",
+  "auditor": "",
+  "author": "Andrew Mariani",
+  "difficulty": "medium",
+  "hintSections": [
+    {
+      "name": "0052 Text Block",
+      "pluginPackageName": "prodigi-plugin-text-block",
+      "id": 4,
+      "config": {
+        "text": "The months of the year start like this:",
+        "substitutions": {}
+      }
+    },
+    {
+      "name": "0052 Text Block",
+      "pluginPackageName": "prodigi-plugin-text-block",
+      "id": 5,
+      "config": {
+        "text": " [[months]] ",
+        "substitutions": {
+          "months": {
+            "name": "months",
+            "type": "variantColumn",
+            "value": "months"
+          }
+        }
+      }
+    }
+  ],
+  "labels": [],
+  "locale": "",
+  "questionNumber": "2",
+  "questionSections": [
+    {
+      "name": "0052 Text Block",
+      "pluginPackageName": "prodigi-plugin-text-block",
+      "id": 1,
+      "config": {
+        "text": " [[question]] ",
+        "substitutions": {
+          "question": {
+            "name": "question",
+            "type": "variantColumn",
+            "value": "question"
+          }
+        }
+      }
+    },
+    {
+      "name": "0052 Text Block",
+      "pluginPackageName": "prodigi-plugin-text-block",
+      "id": 2,
+      "config": {
+        "text": " [[months]] ",
+        "substitutions": {
+          "months": {
+            "name": "months",
+            "type": "variantColumn",
+            "value": "months"
+          }
+        }
+      }
+    },
+    {
+      "name": "0003 Choice Input",
+      "pluginPackageName": "prodigi-plugin-choice-input",
+      "id": 3,
+      "config": {
+        "choices": {
+          "0": {
+            "type": "variantColumn",
+            "correct": true,
+            "value": "answer"
+          },
+          "1": {
+            "type": "variantColumn",
+            "value": "option1"
+          },
+          "2": {
+            "type": "variantColumn",
+            "value": "option2"
+          },
+          "3": {
+            "type": "variantColumn",
+            "value": "option3"
+          }
+        },
+        "correctAnswer": {
+          "type": "constant",
+          "value": "0"
+        },
+        "answerCount": 1
+      }
+    }
+  ],
+  "solutionSections": [
+    {
+      "name": "0052 Text Block",
+      "pluginPackageName": "prodigi-plugin-text-block",
+      "id": 6,
+      "config": {
+        "text": "The months of the year start like this:",
+        "substitutions": {}
+      }
+    },
+    {
+      "name": "0052 Text Block",
+      "pluginPackageName": "prodigi-plugin-text-block",
+      "id": 7,
+      "config": {
+        "text": " [[months]] ",
+        "substitutions": {
+          "months": {
+            "name": "months",
+            "type": "variantColumn",
+            "value": "months"
+          }
+        }
+      }
+    },
+    {
+      "name": "0052 Text Block",
+      "pluginPackageName": "prodigi-plugin-text-block",
+      "id": 8,
+      "config": {
+        "text": " [[solution]] ",
+        "substitutions": {
+          "solution": {
+            "name": "solution",
+            "type": "variantColumn",
+            "value": "solution"
+          }
+        }
+      }
+    }
+  ],
+  "specFormatVersion": "2.2.0",
+  "subQuestionId": "",
+  "variants": {
+    "default": [
+      {
+        "question": "Which month is 3 months after February?",
+        "months": "January, February, March, April, May, June, July, August",
+        "answer": "May",
+        "option1": "February",
+        "option2": "April",
+        "option3": "November",
+        "solution": "May comes 3 months after February. "
+      },
+      {
+        "question": "Which month is 3 months after April?",
+        "months": "January, February, March, April, May, June, July, August",
+        "answer": "July",
+        "option1": "April",
+        "option2": "May",
+        "option3": "June",
+        "solution": "July comes 3 months after April. "
+      },
+      {
+        "question": "Which month is 2 months before August?",
+        "months": "January, February, March, April, May, June, July, August",
+        "answer": "June",
+        "option1": "July",
+        "option2": "April",
+        "option3": "May",
+        "solution": "June comes 2 months before August. "
+      },
+      {
+        "question": "Which month is 2 months before October?",
+        "months": "May, June, July, August, September, October, November, December",
+        "answer": "August",
+        "option1": "December",
+        "option2": "November",
+        "option3": "September",
+        "solution": "August comes   2 months before October."
+      },
+      {
+        "question": "Which month is 3 months before December?",
+        "months": "May, June, July, August, September, October, November, December",
+        "answer": "September",
+        "option1": "August",
+        "option2": "July",
+        "option3": "October",
+        "solution": "September comes   3 months before December. "
+      },
+      {
+        "question": "Which month is 3 months before September?",
+        "months": "May, June, July, August, September, October, November, December",
+        "answer": "June",
+        "option1": "December",
+        "option2": "August",
+        "option3": "July",
+        "solution": "June comes   3 months before September. "
+      }
+    ]
+  },
+  "variantTableComments": "",
+  "variableMetadata": {}
+}

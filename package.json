@@ -1,0 +1,48 @@
+{
+  "name": "Template_5155",
+  "version": "0.0.1",
+  "private": true,
+  "difficulty": "medium",
+  "tags": [
+    "Lesson 816",
+    "Question 2"
+  ],
+  "main": "./index.js",
+  "variants": {
+    "default": 6
+  },
+  "prodigiDependencies": {
+    "prodigi-plugin-assist-block": {
+      "id": 10,
+      "version": "0.12.0"
+    },
+    "prodigi-plugin-template-body": {
+      "id": 79,
+      "version": "1.36.0"
+    },
+    "prodigi-plugin-question-block": {
+      "id": 63,
+      "version": "0.10.0"
+    },
+    "prodigi-plugin-number-format": {
+      "id": 48,
+      "version": "0.12.0"
+    },
+    "prodigi-plugin-text-block": {
+      "id": 87,
+      "version": "0.16.2"
+    },
+    "prodigi-plugin-choice-input": {
+      "id": 14,
+      "version": "1.27.1"
+    },
+    "prodigi-plugin-list": {
+      "id": 40,
+      "version": "2.8.0"
+    }
+  },
+  "prodigiDevDependencies": {
+    "prodigi3-playground": "0.0.9",
+    "prodigi3-builder": "mangahigh/prodigi3-builder#0.14.2"
+  }
+}

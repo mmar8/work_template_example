@@ -1,0 +1,7 @@
+question,months,answer,option1,option2,option3,solution
+3 months after February,"January, February, March, April, May, June, July, August",May,February,April,November,May comes 3 months after February
+3 months after April,"January, February, March, April, May, June, July, August",July,April,May,June,July comes 3 months after April
+2 months before August,"January, February, March, April, May, June, July, August",June,July,April,May,June comes 2 months before August
+2 months before October,"May, June, July, August, September, October, November, December",August,December,November,September,August comes 2 months before October.
+3 months before December,"May, June, July, August, September, October, November, December",September,August,July,October,September comes 3 months before December
+3 months before September,"May, June, July, August, September, October, November, December",June,December,August,July,June comes 3 months before September
